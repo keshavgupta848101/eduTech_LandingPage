@@ -48,7 +48,7 @@ a{
     height: 60vh;
     margin: 40px auto;
     /* background-color: tomato; */
-    background-image: url('./img/bb1.png');
+    background-image: url('./bb1.png');
     background-size: 75vw 60vh;
     box-shadow: 1px 2px 2px 5px #ccc;
     animation-name: slider;
@@ -59,24 +59,15 @@ a{
 @keyframes slider{
 
     0%{
-        background-image: url('./img/bb1.png');
+        background-image: url('./bb1.png');
     }
     35%{
-        background-image: url('./img/bb2.png');
+        background-image: url('./bb2.png');
     }
     75%{
-        background-image: url('./img/bb3.png');
+        background-image: url('./bb3.png');
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 600px) {
@@ -109,8 +100,7 @@ a{
   }
 
   
-/*     section  *//*     section  *//*     section  *//*     section  *//*     section  *//*     section  */
-/*     section  *//*     section  *//*     section  *//*     section  *//*     section  *//*     section  */
+/*     section  */ 
 
   section{
     display: flex;
